@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+      <title>Sign Up</title>
+      <style>
+      	body {
+      	background-color:#f3f3f3;
+      	/*background: linear-gradient(to left, #A42ECB 0%, #FF4D00 100%);*/
+          background-size:cover;
+          font-family:sans-serif;
+          padding:0;margin:0;
+      	}
+      		#email {
+      		border:1px solid #C5C5C3;
+      		background-color:#fff;
+      		outline:none;
+      		width:127px;
+      		height:35px;
+      		font-size:15px;
+      border-radius:0px;
+      padding:0px 10px;
+      	}
+      #email:hover {
+      	border-color:#008DCC;
+          border-width:1px;
+      	}
+        
+      	#first_name {
+      		border:1px solid #C5C5C3;
+      		background-color:#fff;
+      		outline:none;
+      		width:280px;
+      		height:35px;
+      		font-size:15px;
+      
+      border-radius:0px;
+      padding:0px 10px;
+      	}
+      
+          
+      	#pass {
+      		border:1px solid #C5C5C3;
+      		background-color:#fff;
+      		outline:none;
+      		width:280px;
+      		height:35px;
+      		font-size:15px;
+      border-radius:0px;
+      padding:0px 10px;
+      } .all {
+            	width:90%;
+                border:1px solid #D1D1D1;
+                background-color:#fff;
+                border-radius:5px;
+                margin-top:10%;
+                opacity:.9;
+                }
+                .all5 {
+                	width:95%;
+                    height:50px;
+                    background-color:#fff;
+                    border-bottom:1px solid #ddd;
+                    border-width:1px;
+                    border-radius:6px 6px 0px 0px;
+                	}
+      	#signup {
+      		width:300px;
+      		height:35px;
+      		font-size:16px;
+      		outline:none;
+              background-color:#0092FF;
+              border:1px;
+              color:#fff;
+              border-radius: 5px;
+      		outline:none;
+              box-shadow:0px 0px 8px 0px #eee;
+              border-style:none;
+              opacity:1;
+      	}
+      #log9o {
+      	float:left;
+      	padding:14px 20px;color:#4682B4;
+      	}
+      
+      #sex {
+      	width:300px;
+      font-size:15px;
+      	height:35px;
+      padding:0px 10px;
+      	}
+      
+      #select-5 {
+      width:97px;
+      height:35px;
+      padding:0px 10px;
+      font-size:15px;
+      	}
+      #cloce-img {
+      float:right;
+      padding:15px 20px;
+	  width:25px;
+						
+      </style>
+   </head>
+   <body>
+      	<center>
+      	<form action="AddClients.php" method="POST">
+					<div class="all">
+     	<div class="all5">
+                        	    
+      	<div id="tow">
+       	<div id="log9o">
+                        	<font id="logo-n"><b>Accounts Manager</b></font>
+                        	</div>
+                        </div>
+                                  	<div id="tow-2">
+                        <img onclick='Ocn(alert("hello");' id="cloce-img" src="png/log.png"/>
+                        	</div></div>
+                        
+                        	<br>
+                        	
+                        	<br>
+
+      <input type="text"id="first_name"placeholder="   Usrname" name="usr">
+      <br>
+      <br>
+
+      
+      <table><tr><td>
+      <input type="text"id="email"placeholder="   First name" name="first" required>
+</td>
+      <td><input type="text"id="email"placeholder="   Last name" name="last" required>
+</td>
+      </tr></table>
+     <br>
+       <table><tr><td>
+       	<select id="select-5" name="day" required>
+       	<option>Day</option>
+       	<option>1</option>
+       	<option>2</option>
+       	<option>3</option>
+       	<option>4</option>
+       	<option>5</option>
+       	<option>6</option>
+       	<option>7</option>
+       	<option>8</option>
+       	<option>9</option>
+       	<option>10</option>
+       	<option>11</option>
+       	<option>12</option>
+       	<option>13</option>
+       	<option>14</option>
+       	<option>15</option>
+       	<option>16</option>
+       	<option>17</option>
+       	<option>18</option>
+       	<option>19</option>
+       	<option>20</option>
+       	<option>21</option>
+       	<option>22</option>
+       	<option>23</option>
+       	<option>24</option>
+       	<option>25</option>
+       	<option>26</option>
+       	<option>27</option>
+       	<option>28</option>
+       	<option>29</option>
+       	<option>30</option>
+</select>	
+     </td>
+     <td>
+       	<select id="select-5" name="month" required>
+       		<option>Month</option>
+       	<option>1</option>
+       	<option>2</option>
+       	<option>3</option>
+       	<option>4</option>
+       	<option>5</option>
+       	<option>6</option>
+       	<option>7</option>
+       	<option>8</option>
+       	<option>9</option>
+       	<option>10</option>
+       	<option>11</option>
+       	<option>12</option>
+       
+</select>
+     </td>
+      <td>	<select id="select-5" name="year" required>
+      		<option>Year</option>
+      	<option>1991</option>
+       	<option>1992</option>
+       	<option>1993</option>
+       	<option>1994</option>
+       	<option>1995</option>
+       	<option>1996</option>
+       	<option>1997</option>
+       	<option>1998</option>
+       	<option>1999</option>
+       	<option>2000</option>
+      	<option>2001</option>
+      	<option>2002</option>
+      	<option>2003</option>
+</select>
+</td>
+      </tr></table>
+      	
+       
+    <br>	<select id="sex" name="sex" required>
+      	<option>Male</options>
+      	<option>Fmale</options>
+      	</select>
+<br>
+<br>
+      <input type="password"id="pass"placeholder="   Password" name="password" required>
+      
+      <br>
+      		<br>
+      		<input type="submit"id="signup"value="Creat an account">
+      	<br>
+      	<br>
+      	    
+     	</div>
+     </form>
+     </center>
+    
+    	
+     
+   </body>
+</html>
